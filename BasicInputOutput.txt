@@ -1,0 +1,60 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        string name, age, permanentAdd, presentAdd, bdate, civilStat, cShip, bPlace, fName, mName, address, height, weight, languages, ePerson, religion;
+        
+        Console.WriteLine ("Please enter the following: ");
+        Console.WriteLine ("Your Full Name: ");
+        name = Console.ReadLine();
+        Console.WriteLine ("Your Permanent Address: ");
+        permanentAdd = Console.ReadLine();
+        Console.WriteLine ("Your Present Address: ");
+        presentAdd = Console.ReadLine();
+        Console.WriteLine ("Your Date of Birth: ");
+        bdate = Console.ReadLine();
+        Console.WriteLine ("Your Civil Status: ");
+        civilStat = Console.ReadLine();
+        Console.WriteLine ("Your Citizenship: ");
+        cShip = Console.ReadLine();
+        Console.WriteLine ("Your Place of Birth: ");
+        bPlace = Console.ReadLine();
+        Console.WriteLine ("Your Father's Name: ");
+        fName = Console.ReadLine();
+        Console.WriteLine ("Your Mother's Name: ");
+        mName = Console.ReadLine();
+        Console.WriteLine ("Your Address: ");
+        address = Console.ReadLine();
+        Console.WriteLine ("Languages Spoken: ");
+        languages = Console.ReadLine();
+        Console.WriteLine ("Person to contact during Emergency: ");
+        ePerson = Console.ReadLine();
+        Console.WriteLine ("Religion: ");
+        religion = Console.ReadLine();
+        Console.WriteLine ("Your Age: ");
+        age = Console.ReadLine();
+        Console.WriteLine ("Your Weight: ");
+        weight = Console.ReadLine();
+        Console.WriteLine ("Your Height: ");
+        height = Console.ReadLine();
+        
+        Console.WriteLine("-----------------------------------");
+        Console.WriteLine("Name              : " + name);
+        Console.WriteLine("Present Address   : " + presentAdd);
+        Console.WriteLine("Permanent Address : " + permanentAdd);
+        Console.WriteLine("Date of Birth:    : " + bdate.PadRight(23, ' ') + "Religion : " + religion);
+        Console.WriteLine("Civil Statues     : " + civilStat.PadRight(23, ' ') + "Age      : " + age );
+        Console.WriteLine("Citizenship       : " + cShip.PadRight(23, ' ') + "Weight   : " + weight);
+        Console.WriteLine("Place of Birth    : " + bPlace.PadRight(23, ' ') + "Height   : " + height);
+        Console.WriteLine("Father's Name     : " + fName);
+        Console.WriteLine("Mother's Name     : " + mName);
+        Console.WriteLine("Address           : " + address);
+        Console.WriteLine("Languages or Dialects Spoken       : " + languages);
+        Console.WriteLine("Person to contact during Emergency : " + ePerson);
+    }
+}
